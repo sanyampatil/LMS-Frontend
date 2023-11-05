@@ -8,13 +8,10 @@ import { Provider } from 'react-redux'
 import store from './Redux/Slices/Store.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <Provider store={store}>
-
-   <BrowserRouter>
-
-    <App />
-    <Toaster/>
-   </BrowserRouter>
-    </Provider>
-
+  <Provider store={store}>
+    <BrowserRouter>
+      <App />
+      <Toaster />
+    </BrowserRouter>
+  </Provider>
 )

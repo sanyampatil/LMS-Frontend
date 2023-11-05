@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import {Route,Routes}  from 'react-router-dom'
-import Footer from './Components/Footer'
+// import {Route,Routes}  from 'react-router-dom'
+// import Footer from './Components/Footer'
+import HomeLayout from './Layout/HomeLayout'
+import HomePage form ''
 
 
 function App() {
@@ -9,14 +11,13 @@ function App() {
 
   return (
     <>
-    {/* <Routes>
+    <Routes>
 
-    <Route path='/' element={<home/>}></Route>
+    <Route path='/' element={<HomePage/>}></Route>
 
       
-    </Routes> */}
+    </Routes>
       
-    <Footer/>
 </>
   )
 }

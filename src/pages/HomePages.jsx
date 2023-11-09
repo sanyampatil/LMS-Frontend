@@ -4,7 +4,7 @@ import homePageMainImage from '../assets/Images/homePageMainImage.png'
 function HomePage () {
   return (
     <HomeLayout>
-      <div className='pt-10 text-white flex items-center gap-10 mx-16 h-[90vh]'>
+      <div className=' text-white flex items-center gap-10 mx-16   h-[90vh]'>
         <div className='w-1/2 space-y-6 font-semibold'>
           <h1 className='text-5xl font-semibold'>
             Find out best

@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePages'
 import AboutUs from './pages/AboutUs'
 import NotFound from './pages/NoteFound'
+import Signup from './pages/Signup'
 
 function App () {
   const [count, setCount] = useState(0)
@@ -15,6 +16,8 @@ function App () {
       <Routes>
         <Route path='/' element={<HomePage />}></Route>
         <Route path='/about' element={<AboutUs />}></Route>
+        <Route path='/signup' element={<Signup />}></Route>
+
         <Route path='*' element={<NotFound />}></Route>
 
 
